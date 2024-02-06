@@ -8,7 +8,7 @@ COPY . /app
 WORKDIR /app
 
 # 安装项目依赖
-RUN npm install
+RUN npm install --force
 
 # 暴露容器的端口
 EXPOSE 3000
